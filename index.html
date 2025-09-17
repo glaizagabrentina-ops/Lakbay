@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byahe - Discover the Philippines</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.8), rgba(16, 185, 129, 0.8)),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%2306b6d4" width="1200" height="600"/><path fill="%2334d399" d="M0 400c200-50 400-100 600-50s400 100 600 50v200H0z"/></svg>');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      
+      <!-- Left: Logo -->
+      <div class="flex items-center">
+        <img src="images/logo_byahe.png" alt="Lakbay Logo" class="h-10 w-auto mr-2">
+        <span class="text-2xl font-bold text-blue-600">Lakbay</span>
+      </div>
+
+      <!-- Right: Links + Button -->
+      <div class="flex items-center ml-auto space-x-8">
+        <!-- Navigation Links -->
+        <div class="hidden md:flex space-x-8">
+          <a href="#destinations" class="text-gray-700 hover:text-blue-600 transition">Destinations</a>
+          <a href="#packages" class="text-gray-700 hover:text-blue-600 transition">Packages</a>
+          <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+          <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+        </div>
+
+        <!-- Book Now Button -->
+        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+          Book Now
+        </button>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+    <!-- Hero Section -->
+     <section class="hero">
+    <img src="images/logo_byahe.png" alt="Lakbay Logo" style="height:60px;">
+    </section>
+    
+       <section class="relative h-screen flex items-center justify-center text-white"
+         style="background: url('images/banners.jpg') center/cover no-repeat;">
+    <!-- Optional dark overlay for better text contrast -->
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+    <div class="relative text-center">
+        
+    </div>
+</section>
+
+    </div>
+</section>
+
+
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Discover the Philippines</h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-90">Experience paradise with over 7,000 islands of wonder</p>
+            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 max-w-2xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Destination</label>
+                        <select class="w-full p-3 rounded-lg bg-white text-gray-800">
+                            <option>Choose destination</option>
+                            <option>Palawan</option>
+                            <option>Boracay</option>
+                            <option>Bohol</option>
+                            <option>Siargao</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Check-in</label>
+                        <input type="date" class="w-full p-3 rounded-lg bg-white text-gray-800">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Guests</label>
+                        <select class="w-full p-3 rounded-lg bg-white text-gray-800">
+                            <option>1 Guest</option>
+                            <option>2 Guests</option>
+                            <option>3 Guests</option>
+                            <option>4+ Guests</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 rounded-lg transition transform hover:scale-105">
+                    🔍 Search Adventures
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section id="destinations" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Featured Destinations</h2>
+                <p class="text-xl text-gray-600">Explore the most beautiful places in the Philippines</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Palawan -->
+                 
+
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="h-64 bg-gradient-to-br from-emerald-400 to-cyan-500 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <img src="images/palawan.jpg" alt="Palawan Lagoon" class="w-full h-64 object-cover rounded-2xl">
+                      
+                            
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">Underground rivers, pristine beaches, and crystal-clear lagoons await in this island paradise.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-2xl font-bold text-blue-600">₱15,999</span>
+                            <span class="text-sm text-gray-500">per person</span>
+                        </div>
+                        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition">
+                            Book Palawan Trip
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Boracay -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="h-64 bg-gradient-to-br from-orange-400 to-pink-500 flex items-center justify-center">
+                        <div class="text-center text-white">
+                            <img src="images/BoracaySpot.jpg" alt="Boracay" class="w-full h-64 object-cover rounded-2xl">
+                      
+                    
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">World-famous white sand beaches, vibrant nightlife, and endless water activities.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-2xl font-bold text-blue-600">₱12,499</span>
+                            <span class="text-sm text-gray-500">per person</span>
+                        </div>
+                        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition">
+                            Book Boracay Trip
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Bohol -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="h-64 bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center">
+                        <div class="text-center text-white">
+                             <img src="images/Bohol.jpg" alt="Bohol" class="w-full h-64 object-cover rounded-2xl">
+                      
+                
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-4">Chocolate Hills, tarsier sanctuaries, and historic churches in this cultural gem.</p>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-2xl font-bold text-blue-600">₱11,299</span>
+                            <span class="text-sm text-gray-500">per person</span>
+                        </div>
+                        <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition">
+                            Book Bohol Trip
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Packages -->
+    <section id="packages" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Travel Packages</h2>
+                <p class="text-xl text-gray-600">Choose the perfect adventure for your journey</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Budget Package -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
+                    <div class="text-4xl mb-4">🎒</div>
+                    <h3 class="text-2xl font-bold mb-4">Budget Explorer</h3>
+                    <div class="text-3xl font-bold text-blue-600 mb-6">₱8,999</div>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 3 Days / 2 Nights</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Budget Accommodation</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Local Transportation</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Basic Meals</li>
+                    </ul>
+                    <button class="w-full bg-gray-600 hover:bg-gray-700 text-white py-3 rounded-lg transition">
+                        Choose Budget
+                    </button>
+                </div>
+
+                <!-- Premium Package -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 text-center border-4 border-blue-500 relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white px-4 py-1 rounded-full text-sm">
+                        Most Popular
+                    </div>
+                    <div class="text-4xl mb-4">⭐</div>
+                    <h3 class="text-2xl font-bold mb-4">Premium Adventure</h3>
+                    <div class="text-3xl font-bold text-blue-600 mb-6">₱18,999</div>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 5 Days / 4 Nights</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 4-Star Hotels</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Private Transportation</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> All Meals Included</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Tour Guide</li>
+                    </ul>
+                    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition">
+                        Choose Premium
+                    </button>
+                </div>
+
+                <!-- Luxury Package -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
+                    <div class="text-4xl mb-4">💎</div>
+                    <h3 class="text-2xl font-bold mb-4">Luxury Escape</h3>
+                    <div class="text-3xl font-bold text-blue-600 mb-6">₱35,999</div>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 7 Days / 6 Nights</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> 5-Star Resorts</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Private Jet/Yacht</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Gourmet Dining</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-2">✓</span> Personal Concierge</li>
+                    </ul>
+                    <button class="w-full bg-yellow-600 hover:bg-yellow-700 text-white py-3 rounded-lg transition">
+                        Choose Luxury
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-8">
+            <div class="text-center mb-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-2">Book Your Adventure</h3>
+                <p class="text-gray-600">This is a demo booking form</p>
+            </div>
+            
+            <form class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                    <input type="text" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Enter your name">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                    <input type="email" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Enter your email">
+                </div>
+                
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Phone</label>
+                    <input type="tel" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Enter your phone">
+                </div>
+                
+                <div class="flex space-x-4 pt-4">
+                    <button type="button" onclick="closeBookingModal()" class="flex-1 bg-gray-300 hover:bg-gray-400 text-gray-800 py-3 rounded-lg transition">
+                        Cancel
+                    </button>
+                    <button type="submit" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg transition">
+                        Submit Booking
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">🏝️ Byahe</h3>
+                    <p class="text-gray-300">Your gateway to discovering the beautiful Philippines. Experience paradise with us.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#destinations" class="text-gray-300 hover:text-white transition">Destinations</a></li>
+                        <li><a href="#packages" class="text-gray-300 hover:text-white transition">Packages</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-white transition">About Us</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Popular Destinations</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Palawan</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Boracay</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Bohol</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition">Siargao</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <p>📧 hello@byahe.ph</p>
+                        <p>📞 +63 917 123 4567</p>
+                        <p>📍 Manila, Philippines</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-300">&copy; 2024 Byahe. All rights reserved. Made with ❤️ for Filipino travelers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Show booking modal
+        function showBookingModal() {
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+
+        // Close booking modal
+        function closeBookingModal() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+
+        // Add click handlers to all booking buttons
+        document.querySelectorAll('button').forEach(button => {
+            if (button.textContent.includes('Book') || button.textContent.includes('Choose')) {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    showBookingModal();
+                });
+            }
+        });
+
+        // Handle form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your booking request! This is a demo - in a real website, this would process your booking.');
+            closeBookingModal();
+        });
+
+        // Close modal when clicking outside
+        document.getElementById('bookingModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeBookingModal();
+            }
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97ddcb7072c702d2',t:'MTc1NzY2MzIyNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

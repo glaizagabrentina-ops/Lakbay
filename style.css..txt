@@ -1,0 +1,73 @@
+/* ===== Global Styles ===== */
+html {
+    scroll-behavior: smooth; /* Smooth scrolling when clicking links */
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9fafb;
+}
+
+/* ===== Navbar Customization ===== */
+nav img {
+    transition: transform 0.3s ease;
+}
+
+nav img:hover {
+    transform: scale(1.05); /* Slight zoom effect on logo hover */
+}
+
+/* Active Link Highlight */
+nav a.active {
+    color: #2563eb; /* Tailwind's blue-600 */
+    font-weight: bold;
+    border-bottom: 2px solid #2563eb;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+    background: url('image/the philippines.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* ===== Booking Form ===== */
+.booking-form input,
+.booking-form select {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.booking-form input:focus,
+.booking-form select:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.4);
+}
+
+/* ===== Cards / Tourist Spots ===== */
+.spot {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.spot:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #111827; /* Tailwind gray-900 */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
